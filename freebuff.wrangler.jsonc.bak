@@ -1,0 +1,12 @@
+{
+  "compatibility_date": "2026-02-01",
+  "frontend": {
+    "build_command": "npx opennext-cloudflare --config freebuff.open-next.config.ts --build",
+    "build_output": ".opennext"
+  },
+  "vars": {
+    "FREEBUFF_CLIENT_ID": "f0ab8f11-603c-4829-9a10-cb92cab488a4",
+    "FREEBUFF_ISSUER": "https://freebuff.com/oidc",
+    "APP_ORIGIN": "https://site-e3da3fd535ca46bfbc7d1165ab94d278.freebuff.page"
+  }
+}

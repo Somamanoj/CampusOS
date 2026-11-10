@@ -1,0 +1,79 @@
+
+> campus-event-manager@1.0.0 dev
+> next dev
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mProcessing freebuff.wrangler.jsonc configuration:[0m
+
+    - Unexpected fields found in top-level field: "frontend"
+
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mProcessing freebuff.wrangler.jsonc configuration:[0m
+
+    - Unexpected fields found in top-level field: "frontend"
+
+
+   ▲ Next.js 15.5.29
+   - Local:        http://localhost:3000
+   - Network:      http://169.254.77.2:3000
+
+ ✓ Starting...
+ ✓ Ready in 2.5s
+ ○ Compiling / ...
+ ✓ Compiled / in 4.6s (639 modules)
+ GET / 200 in 4961ms
+ GET / 200 in 58ms
+ GET / 200 in 56ms
+ GET / 200 in 50ms
+ ⚠ Cross origin request detected from pv-12761141be80-4800da1b-b2e8-4207-a07b-d7958fcc4ce9.style.dev to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ ○ Compiling /auth/freebuff/[...freebuff] ...
+ ⨯ ./app/auth/freebuff/[...freebuff]/route.js:1:1
+Module not found: Can't resolve '@/app/layout'
+> 1 | import { handlers } from "@/app/layout";
+    | ^
+  2 | export const { GET, POST } = handlers;
+  3 |
+
+https://nextjs.org/docs/messages/module-not-found
+ ⨯ ./app/auth/freebuff/[...freebuff]/route.js:1:1
+Module not found: Can't resolve '@/app/layout'
+> 1 | import { handlers } from "@/app/layout";
+    | ^
+  2 | export const { GET, POST } = handlers;
+  3 |
+
+https://nextjs.org/docs/messages/module-not-found
+ ⨯ ./app/auth/freebuff/[...freebuff]/route.js:1:1
+Module not found: Can't resolve '@/app/layout'
+> 1 | import { handlers } from "@/app/layout";
+    | ^
+  2 | export const { GET, POST } = handlers;
+  3 |
+
+https://nextjs.org/docs/messages/module-not-found
+ GET /auth/freebuff/session 500 in 6095ms
+ ⨯ ./app/auth/freebuff/[...freebuff]/route.js:1:1
+Module not found: Can't resolve '@/app/layout'
+> 1 | import { handlers } from "@/app/layout";
+    | ^
+  2 | export const { GET, POST } = handlers;
+  3 |
+
+https://nextjs.org/docs/messages/module-not-found
+ POST /auth/freebuff/signout 500 in 36ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⨯ ./app/auth/freebuff/[...freebuff]/route.js:1:1
+Module not found: Can't resolve '@/app/layout'
+> 1 | import { handlers } from "@/app/layout";
+    | ^
+  2 | export const { GET, POST } = handlers;
+  3 |
+
+https://nextjs.org/docs/messages/module-not-found
+ GET /auth/freebuff/signout 500 in 10ms
+ ⨯ ./node_modules/next/dist/lib/framework/boundary-components.js
+Error: ENOENT: no such file or directory, open '/workspace/chats/12761141be8016744f44e62c/node_modules/next/dist/lib/framework/boundary-components.js'
+
+Import trace for requested module:
+./node_modules/next/dist/lib/framework/boundary-components.js
+ ✓ Compiled /_error in 362ms (214 modules)
