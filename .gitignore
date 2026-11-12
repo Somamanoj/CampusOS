@@ -1,3 +1,6 @@
 /freebuff-sites-build/
 /.open-next/
 /.wrangler/
+.next/
+node_modules/
+.DS_Store
